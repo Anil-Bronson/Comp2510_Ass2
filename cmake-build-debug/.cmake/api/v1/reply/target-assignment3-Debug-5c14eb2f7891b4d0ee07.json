@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "assignment3.exe"
-		},
-		{
-			"path" : "assignment3.pdb"
+			"path" : "assignment3"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu2x -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu2x -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics"
 				}
 			],
 			"language" : "C",
@@ -66,14 +63,14 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,--enable-auto-import",
+				"fragment" : "",
 				"role" : "flags"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "assignment3",
-	"nameOnDisk" : "assignment3.exe",
+	"nameOnDisk" : "assignment3",
 	"paths" : 
 	{
 		"build" : ".",
